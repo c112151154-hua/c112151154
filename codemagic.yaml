@@ -5,9 +5,8 @@ workflows:
     instance_type: mac_mini_m1
     environment:
       groups:
-        - name: default
+        - default
       flutter: stable
-      xcode: latest
     scripts:
       - name: Get Flutter packages
         script: |
